@@ -149,3 +149,5 @@ ebece9f37c28e80887c39a3d8729b1fc Assembly-CSharp.dll:.V_Text
 2087b7100c0b531a1bbfc6d77e12ca94 Assembly-CSharp.dll:.V_SMC_Camera
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:easyar.GUIPopup
 a3ea8227da125c61f30f9729e852a7eb Assembly-CSharp.dll:easyar.SurfaceTrackerBehaviour
+addc302be17530d7f86fd97830d3b2d1 Assembly-CSharp.dll:.HealthBar
+addc302be17530d7f86fd97830d3b2d1 Assembly-CSharp.dll:.ManaBar

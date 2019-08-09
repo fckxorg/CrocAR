@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$/../.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$/../.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Croc.1023625819.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets/EasyAR" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="ARMaterial.cs" t="Include" />
+          <e p="ARSession.cs" t="Include" />
+          <e p="ARShader.cs" t="Include" />
+          <e p="CameraImageRenderer.cs" t="Include" />
+          <e p="CloudRecognizeBehaviour.cs" t="Include" />
+          <e p="EasyARBehaviour.cs" t="Include" />
+          <e p="EasyARSettings.cs" t="Include" />
+          <e p="GUIPopup.cs" t="Include" />
+          <e p="ImageTargetController.cs" t="Include" />
+          <e p="ImageTrackerBehaviour.cs" t="Include" />
+          <e p="SurfaceTargetController.cs" t="Include" />
+          <e p="SurfaceTrackerBehaviour.cs" t="Include" />
+          <e p="TouchController.cs" t="Include" />
+          <e p="Utility.cs" t="Include" />
+          <e p="csapi.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="bgr.shader" t="Include" />
+          <e p="gray.shader" t="Include" />
+          <e p="yuv_i420_yv12.shader" t="Include" />
+          <e p="yuv_nv12.shader" t="Include" />
+          <e p="yuv_nv21.shader" t="Include" />
+        </e>
+      </e>
+      <e p="Assets/Plugins" t="Include">
+        <e p="Android" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+        </e>
+      </e>
+      <e p="Assets/SMC Pack 1" t="Include">
+        <e p="Demo" t="Include">
+          <e p="Files" t="Include">
+            <e p="V_SMC_Camera.cs" t="Include" />
+            <e p="V_SMC_Handler.cs" t="Include" />
+            <e p="V_Text.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Assets/Samples" t="Include">
+        <e p="Resources" t="Include">
+          <e p="HelloAR_ImageTarget" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="HealthBar.cs" t="Include" />
+              <e p="ManaBar.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Croc.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
