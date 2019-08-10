@@ -204,15 +204,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 935669418}
     m_Modifications:
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 431
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 211
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -236,7 +236,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -244,15 +244,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 20
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 20
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 20
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 1ffdc701eac254f65b285506c7fc7b8b, type: 3}
       propertyPath: m_IsActive
@@ -1059,6 +1059,7 @@ Transform:
   m_Children:
   - {fileID: 1285168649}
   - {fileID: 16981756}
+  - {fileID: 161761489}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1398,7 +1399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimultaneousNum: 1
   CenterTarget: 2
-  CenterImageTarget: {fileID: 0}
+  CenterImageTarget: {fileID: 935669417}
   TargetCamera: {fileID: 1416824061}
   Mode: 0
 --- !u!4 &1355920163
@@ -1425,6 +1426,7 @@ GameObject:
   - component: {fileID: 1416824061}
   - component: {fileID: 1416824060}
   - component: {fileID: 1416824063}
+  - component: {fileID: 1416824064}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1501,6 +1503,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: 0
   Display: 0
+--- !u!114 &1416824064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1416824059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3447c0f61b074db3a039bf5490db9a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireball: {fileID: 1189678774904990, guid: 637a2c8483b1a451b97dcff9a050e434, type: 2}
+  iceball: {fileID: 1799086388256328, guid: 411bf24c5bd4846969407a52f9912d5d, type: 2}
+  fireball_cast: {fileID: 466225233}
+  iceball_cast: {fileID: 199939431}
+  aim: {fileID: 874490962}
 --- !u!1 &1601792405
 GameObject:
   m_ObjectHideFlags: 0

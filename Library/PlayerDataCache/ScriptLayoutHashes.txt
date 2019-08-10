@@ -150,5 +150,5 @@ c58c8ef4cfecf2f8a5e48524beef81c0 Assembly-CSharp.dll:easyar.CameraImageRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:easyar.GUIPopup
 addc302be17530d7f86fd97830d3b2d1 Assembly-CSharp.dll:.ManaBar
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchController
-c6adb4a239d32526d3a154f49b6f01eb Assembly-CSharp.dll:.ShootingBehaviour
+41f4d2b1d931b04f915ac476a7009d35 Assembly-CSharp.dll:.ShootingBehaviour
 a3ea8227da125c61f30f9729e852a7eb Assembly-CSharp.dll:easyar.SurfaceTrackerBehaviour
