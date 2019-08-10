@@ -153,4 +153,4 @@ addc302be17530d7f86fd97830d3b2d1 Assembly-CSharp.dll:.ManaBar
 823cdd3fad46a8e98584c2757ad80a90 Assembly-CSharp.dll:.ShootingBehaviour
 a3ea8227da125c61f30f9729e852a7eb Assembly-CSharp.dll:easyar.SurfaceTrackerBehaviour
 2dc5c418eda0a50cd1a08db47a66dcd9 Assembly-CSharp.dll:.ShootingColliderBehaviour
-e4274181a70f3a4759dd6078f4e64c2c Assembly-CSharp.dll:.TowerHealthContainer
+718a0f4ccefa0de5e595a91d569b1388 Assembly-CSharp.dll:.TowerHealthContainer
