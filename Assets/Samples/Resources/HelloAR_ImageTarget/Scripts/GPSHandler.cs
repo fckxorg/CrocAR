@@ -12,6 +12,7 @@ public class GPSHandler : MonoBehaviour
     {
         text = gameObject.GetComponent<Text>();
         Input.location.Start();
+        Input.compass.enabled = true;
     }
  
     private void Update()
@@ -20,8 +21,8 @@ public class GPSHandler : MonoBehaviour
         {
             float lat = Input.location.lastData.latitude;
             float lon = Input.location.lastData.longitude;
-           
-            text.text = "Depart lat: " + lat + "lon: " + lon;
+            float heading = Input.compass.magneticHeading;
+            text.text = "Depart lat: " + lat + " lon: " + lon +" magnetic: "+heading;
  
         }
         else
