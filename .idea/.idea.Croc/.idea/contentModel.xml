@@ -4,6 +4,7 @@
     <e p="$PROJECT_DIR$/../.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$/../.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Croc.1023625819.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets/EasyAR" t="Include">
         <e p="Scripts" t="Include">
@@ -36,6 +37,14 @@
           <e p="AndroidManifest.xml" t="Include" />
         </e>
       </e>
+      <e p="Assets/PyroParticles" t="Include">
+        <e p="Prefab" t="Include">
+          <e p="Materials" t="Include">
+            <e p="AdditiveTintable.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Readme.txt" t="Include" />
+      </e>
       <e p="Assets/SMC Pack 1" t="Include">
         <e p="Demo" t="Include">
           <e p="Files" t="Include">
@@ -51,7 +60,48 @@
             <e p="Scripts" t="Include">
               <e p="HealthBar.cs" t="Include" />
               <e p="ManaBar.cs" t="Include" />
+              <e p="ShootingBehaviour.cs" t="Include" />
             </e>
+          </e>
+        </e>
+      </e>
+      <e p="Assets/_MK" t="Include">
+        <e p="MKGlassFree" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MKGlassFreeEditor.cs" t="Include" />
+          </e>
+          <e p="MKGlassFreeMaterialHelper.cs" t="Include" />
+          <e p="Shader" t="Include">
+            <e p="Inc" t="Include">
+              <e p="Common" t="Include">
+                <e p="MKGlassDef.cginc" t="Include" />
+                <e p="MKGlassInc.cginc" t="Include" />
+                <e p="MKGlassLight.cginc" t="Include" />
+                <e p="MKGlassV.cginc" t="Include" />
+              </e>
+              <e p="Forward" t="Include">
+                <e p="MKGlassForward.cginc" t="Include" />
+                <e p="MKGlassForwardAddSetup.cginc" t="Include" />
+                <e p="MKGlassForwardBaseSetup.cginc" t="Include" />
+                <e p="MKGlassForwardIO.cginc" t="Include" />
+              </e>
+              <e p="Meta" t="Include">
+                <e p="MKGlassMeta.cginc" t="Include" />
+                <e p="MKGlassMetaIO.cginc" t="Include" />
+                <e p="MKGlassMetaSetup.cginc" t="Include" />
+              </e>
+              <e p="Surface" t="Include">
+                <e p="MKGlassSurface.cginc" t="Include" />
+                <e p="MKGlassSurfaceIO.cginc" t="Include" />
+              </e>
+              <e p="VertexLit" t="Include">
+                <e p="MKGlassVertexLit.cginc" t="Include" />
+                <e p="MKGlassVertexLitIO.cginc" t="Include" />
+                <e p="MKGlassVertexLitSetup.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="MKGlassCommonFree.shader" t="Include" />
+            <e p="MKGlassFree.shader" t="Include" />
           </e>
         </e>
       </e>

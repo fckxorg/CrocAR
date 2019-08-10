@@ -213,6 +213,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
     <Compile Include="Assets\EasyAR\Scripts\ARMaterial.cs" />
     <Compile Include="Assets\EasyAR\Scripts\ARSession.cs" />
     <Compile Include="Assets\EasyAR\Scripts\ARShader.cs" />
@@ -230,15 +231,36 @@
     <Compile Include="Assets\EasyAR\Scripts\Utility.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\ManaBar.cs" />
+    <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\ShootingBehaviour.cs" />
     <Compile Include="Assets\SMC Pack 1\Demo\Files\V_SMC_Camera.cs" />
     <Compile Include="Assets\SMC Pack 1\Demo\Files\V_SMC_Handler.cs" />
     <Compile Include="Assets\SMC Pack 1\Demo\Files\V_Text.cs" />
     <None Include="Assets\EasyAR\Shaders\yuv_nv21.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
     <None Include="Assets\EasyAR\Shaders\yuv_i420_yv12.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
+    <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
     <None Include="Assets\EasyAR\Shaders\gray.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
+    <None Include="Assets\PyroParticles\Readme.txt" />
     <None Include="Assets\EasyAR\Shaders\bgr.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
     <None Include="Assets\EasyAR\Shaders\yuv_nv12.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>/home/maxim/Croc/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
