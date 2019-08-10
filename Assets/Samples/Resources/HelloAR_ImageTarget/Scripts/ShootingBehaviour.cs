@@ -12,6 +12,7 @@ public class ShootingBehaviour : MonoBehaviour
 	[SerializeField] private SpriteRenderer aim;
 	[SerializeField] private GameObject purpleTower;
 	[SerializeField] private GameObject redTower;
+	[SerializeField] private GameObject ManaBar;
 	private float speed = 100;
 	private Vector3 target;
 
@@ -49,10 +50,16 @@ public class ShootingBehaviour : MonoBehaviour
 			}
 			var rotation = Quaternion.Euler(0f, 0f, 0f);
 			bulletObject = Instantiate(bullet, position, rotation);
+			ManaBar.GetComponent<ManaBar>().DecreaseMana(10);
 		}
 
 	}
 	void Update() {
+		if (Time.frameCount % 100 == 0)
+		{
+			ManaBar.GetComponent<ManaBar>().IncreaseMana(5);
+		}
+
 		if (bulletObject != null)
 		{
 			if (bulletObject.transform.position.z >= target.z)

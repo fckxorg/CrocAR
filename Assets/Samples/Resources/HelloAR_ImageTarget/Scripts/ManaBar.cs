@@ -13,6 +13,24 @@ public class ManaBar : MonoBehaviour {
 		SetSize(0.7f);
 	}
 
+	public void DecreaseMana(float value)
+	{
+		SetSize(bar.localScale.x-value/100f);
+	}
+	public void IncreaseMana(float value)
+	{
+		if (bar.localScale.x < 1f)
+		{
+			if ((bar.localScale.x + value / 100f) > 1)
+			{
+				SetSize(1f);
+			}
+			else
+			{
+				SetSize(bar.localScale.x + value / 100f);
+			}
+		}
+	}
 	public void SetSize(float sizeNormalized)
 	{
 		bar.localScale = new Vector3(sizeNormalized, 1f);

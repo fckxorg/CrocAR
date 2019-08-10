@@ -4924,6 +4924,7 @@ MonoBehaviour:
   aim: {fileID: 874490962}
   purpleTower: {fileID: 448682013}
   redTower: {fileID: 1834022445}
+  ManaBar: {fileID: 1828152770}
 --- !u!1 &1450710246
 GameObject:
   m_ObjectHideFlags: 0
