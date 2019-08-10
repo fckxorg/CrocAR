@@ -232,6 +232,7 @@
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\GPSHandler.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\ManaBar.cs" />
+    <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\PlayerHealthContainer.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\ShootingBehaviour.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\TowerHealthContainer.cs" />
     <Compile Include="Assets\SMC Pack 1\Demo\Files\V_SMC_Camera.cs" />

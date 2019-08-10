@@ -61,6 +61,7 @@
               <e p="GPSHandler.cs" t="Include" />
               <e p="HealthBar.cs" t="Include" />
               <e p="ManaBar.cs" t="Include" />
+              <e p="PlayerHealthContainer.cs" t="Include" />
               <e p="ShootingBehaviour.cs" t="Include" />
               <e p="TowerHealthContainer.cs" t="Include" />
             </e>

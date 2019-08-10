@@ -13,6 +13,7 @@ public class ShootingBehaviour : MonoBehaviour
 	[SerializeField] private GameObject purpleTower;
 	[SerializeField] private GameObject redTower;
 	[SerializeField] private GameObject ManaBar;
+	[SerializeField] private GameObject healthBar;
 	private float speed = 100;
 	private Vector3 target;
 
@@ -31,7 +32,7 @@ public class ShootingBehaviour : MonoBehaviour
 			position.x += 1;
 			target = position;
 			target.z += 100;
-			if (redTower.active| purpleTower.active)
+			if (redTower.active| purpleTower.active | healthBar.active)
 			{
 				speed = 10;
 				if (redTower.active)
@@ -42,6 +43,11 @@ public class ShootingBehaviour : MonoBehaviour
 				if (purpleTower.active)
 				{
 					target = purpleTower.transform.position;
+				}
+
+				if (healthBar.active)
+				{
+					target = healthBar.transform.position;
 				}
 			}
 			else
@@ -72,6 +78,11 @@ public class ShootingBehaviour : MonoBehaviour
 				if (purpleTower.active)
 				{
 					purpleTower.GetComponent<TowerHealthContainer>().DecreaseHealth(20);
+				}
+
+				if (healthBar.active)
+				{
+					healthBar.GetComponent<PlayerHealthContainer>().DecreaseHealth(40);
 				}
 				GameObject.Destroy(bulletObject);
 			}
