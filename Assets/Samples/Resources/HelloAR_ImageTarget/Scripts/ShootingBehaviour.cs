@@ -10,8 +10,9 @@ public class ShootingBehaviour : MonoBehaviour
 	[SerializeField] private Button fireball_cast;
 	[SerializeField] private Button iceball_cast;
 	[SerializeField] private SpriteRenderer aim;
+	[SerializeField] private GameObject purpleTower;
+	[SerializeField] private GameObject redTower;
 	private float speed = 100;
-	private float acceleration = 1;
 	private Vector3 target;
 
 	private GameObject bulletObject;
@@ -28,7 +29,24 @@ public class ShootingBehaviour : MonoBehaviour
 			var position = aim.gameObject.transform.position;
 			position.x += 1;
 			target = position;
-			target.z += 200;
+			target.z += 100;
+			if (redTower.active| purpleTower.active)
+			{
+				speed = 10;
+				if (redTower.active)
+				{
+					target = redTower.transform.position;
+				}
+
+				if (purpleTower.active)
+				{
+					target = purpleTower.transform.position;
+				}
+			}
+			else
+			{
+				speed = 100;
+			}
 			var rotation = Quaternion.Euler(0f, 0f, 0f);
 			bulletObject = Instantiate(bullet, position, rotation);
 		}
@@ -39,6 +57,15 @@ public class ShootingBehaviour : MonoBehaviour
 		{
 			if (bulletObject.transform.position.z >= target.z)
 			{
+				if (redTower.active)
+				{
+					redTower.GetComponent<TowerHealthContainer>().DecreaseHealth(20);
+				}
+
+				if (purpleTower.active)
+				{
+					purpleTower.GetComponent<TowerHealthContainer>().DecreaseHealth(20);
+				}
 				GameObject.Destroy(bulletObject);
 			}
 			else
