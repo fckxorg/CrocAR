@@ -229,6 +229,7 @@
     <Compile Include="Assets\EasyAR\Scripts\SurfaceTrackerBehaviour.cs" />
     <Compile Include="Assets\EasyAR\Scripts\TouchController.cs" />
     <Compile Include="Assets\EasyAR\Scripts\Utility.cs" />
+    <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\GPSHandler.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\ManaBar.cs" />
     <Compile Include="Assets\Samples\Resources\HelloAR_ImageTarget\Scripts\ShootingBehaviour.cs" />

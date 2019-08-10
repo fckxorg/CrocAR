@@ -58,6 +58,7 @@
         <e p="Resources" t="Include">
           <e p="HelloAR_ImageTarget" t="Include">
             <e p="Scripts" t="Include">
+              <e p="GPSHandler.cs" t="Include" />
               <e p="HealthBar.cs" t="Include" />
               <e p="ManaBar.cs" t="Include" />
               <e p="ShootingBehaviour.cs" t="Include" />
