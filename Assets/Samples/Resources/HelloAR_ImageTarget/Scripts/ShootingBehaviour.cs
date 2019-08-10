@@ -23,12 +23,15 @@ public class ShootingBehaviour : MonoBehaviour
 
 	private void ShootObject(GameObject bullet)
 	{
-		var position = aim.gameObject.transform.position;
-		position.x += 1;
-		target = position;
-		target.z += 200;
-		var rotation = Quaternion.Euler(0f, 0f, 0f);
-		bulletObject = Instantiate(bullet, position, rotation);
+		if (bulletObject == null)
+		{
+			var position = aim.gameObject.transform.position;
+			position.x += 1;
+			target = position;
+			target.z += 200;
+			var rotation = Quaternion.Euler(0f, 0f, 0f);
+			bulletObject = Instantiate(bullet, position, rotation);
+		}
 
 	}
 	void Update() {
